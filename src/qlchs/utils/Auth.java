@@ -5,14 +5,14 @@
  */
 package qlchs.utils;
 
-import qlchs.entity.nhanvien;
+import qlchs.entity.NhanVien;
 
 /**
  *
  * @author Admin
  */
 public class Auth {
-    public static nhanvien user = null;
+    public static NhanVien user = null;
     public static void lean(){
         Auth.user = null;
     }
